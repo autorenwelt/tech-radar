@@ -1,4 +1,6 @@
 name,ring,quadrant,isNew,description
+placeholder-1,Techniques,Hold,TRUE,
+Jenkins,Adopt,Tools,TRUE,
 Google Cloud Functions,Adopt,Platforms,TRUE,
 Google Cloud Datastore,Adopt,Platforms,TRUE,
 Google Cloud SQL,Trial,Platforms,TRUE,
