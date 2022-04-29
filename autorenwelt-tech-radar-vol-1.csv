@@ -1,13 +1,26 @@
 name,ring,quadrant,isNew,description
-Jenkins,Adopt,Tools,TRUE,
+Jenkins,Adopt,Tools,TRUE,"Tool um autoamtisch Code zu testen, bauen und auszurollen."
+gopass,Adopt,Tools,TRUE,"https://github.com/gopasspw/gopass"
+direnv,Adopt,Tools,TRUE,"https://direnv.net/"
+Terraform,Adopt,Tools,TRUE,"https://terraform.io/"
+Lighthouse,Assess,Tools,TRUE,"<b>https://www.thoughtworks.com/radar/tools/lighthouse"
+tfsec,Assess,Tools,TRUE,"<b>Original Description from Thoughtworks:</b> https://www.thoughtworks.com/radar/tools/tfsec"
+Cloud Carbon Footprint,Assess,Tools,TRUE,"<b>Original Description from Thoughtworks:</b> https://www.thoughtworks.com/radar/tools/cloud-carbon-footprint"
+jc,Assess,Tools,TRUE,"<b>Original Description from Thoughtworks:</b><br>In our previous Radar, we placed modern Unix commands in Assess. One of the commands featured in that collection of tools was jq, effectively a sed for JSON. jc performs a related task: it takes the output of common Unix commands and parses the output into JSON. The two commands together provide a bridge between the Unix CLI world and the raft of libraries and tools that operate on JSON. When writing simple scripts, for example, for software deployment or gathering troubleshooting information, having the myriad of different Unix command output formats mapped into well-defined JSON can save a lot of time and effort. As with jq, you need to make sure the command is available. It can be installed from many of the well-known package repositories. Link: https://kellyjonbrazil.github.io/jc/docs/"
+Infracost,Assess,Tools,TRUE,"<b>https://www.thoughtworks.com/radar/tools/infracost"
 Google Cloud Functions,Adopt,Platforms,TRUE,
 Google Cloud Datastore,Adopt,Platforms,TRUE,
 Google Cloud Firebase,Adopt,Platforms,TRUE,
+Github,Adopt,Platforms,TRUE,
 Google Cloud SQL,Trial,Platforms,TRUE,
+Github Actions,Hold,Platforms,TRUE,
+GitLab CI/CD,Hold,Platforms,TRUE,
+GitLab,Hold,Platforms,TRUE,
 Sendgrid,Adopt,languages-and-frameworks,TRUE,
 Algolia,Adopt,languages-and-frameworks,TRUE,
 Shopify,Adopt,languages-and-frameworks,TRUE,
 Node.js,Adopt,languages-and-frameworks,TRUE,
+React,Adopt,languages-and-frameworks,TRUE,
 ChakraUI,Trial,languages-and-frameworks,TRUE,
 Next.js,Trial,languages-and-frameworks,TRUE,
 Keycloak,Trial,languages-and-frameworks,TRUE,
@@ -25,8 +38,10 @@ Bookhit,Hold,languages-and-frameworks,TRUE,
 Dialogue1,Hold,languages-and-frameworks,TRUE,
 Drupal,Hold,languages-and-frameworks,TRUE,
 Rails,Hold,languages-and-frameworks,TRUE,
+Ruby,Hold,languages-and-frameworks,TRUE,
 Four key metrics,Assess,Techniques,TRUE,"<b>Original Description from Thoughtworks:</b> https://www.thoughtworks.com/radar/techniques/four-key-metrics"
-Rethinking remote standups,Adopt,Techniques,TRUE,"<p><b>Original Description from Thoughtworks:</b></p><p>The term <em>standup</em> originated from the idea of standing up during this daily sync meeting, with the goal of making it short. It's a common principle many teams try to abide by in their standups: keep it crisp and to the point. But we're now seeing teams challenge that principle and <strong>rethinking remote standups</strong>. When co-located, there are lots of opportunities during the rest of the day to sync up with each other spontaneously, as a complement to the short standup. Remotely, some of our teams are now experimenting with a longer meeting format, similar to what the folks at Honeycomb call a “<a href=""https://www.honeycomb.io/blog/standup-meetings-are-dead/"">meandering team sync</a>.”</p><p>It's not about getting rid of a daily sync altogether; we still find that very important and valuable, especially in a remote setup. Instead, it's about extending the time blocked in everybody's calendars for the daily sync to up to an hour, and use it in a way that makes some of the other team meetings obsolete and brings the team closer together. Activities can still include the well-tried walkthrough of the team board but are then extended by more detailed clarification discussions, quick decisions, and taking time to socialize. The technique is considered successful if it reduces the overall meeting load and improves team bonding.</p>"
-Team cognitive load,Assess,Techniques,TRUE,"<p><b>Original Description from Thoughtworks:</b></p><p>A system's architecture mimics an organizational structure and its communication. It's not big news that we should be intentional about how teams interact — see, for instance, the <a href="/radar/techniques/inverse-conway-maneuver">Inverse Conway Maneuver</a>. Team interaction is one of the variables for how fast and how easily teams can deliver value to their customers. We were happy to find a way to measure these interactions; we used the <a href="https://teamtopologies.com/book">Team Topologies</a> author's <a href="https://github.com/TeamTopologies/Team-Cognitive-Load-Assessment">assessment</a> which gives you an understanding of how easy or difficult the teams find it to build, test and maintain their services. By measuring <strong>team cognitive load</strong>, we could better advise our clients on how to change their teams' structure and evolve their interactions.</p>"
-Transitional architecture,Assess,Techniques,TRUE,"<p><b>Original Description from Thoughtworks:</b></p><p>A <strong><a href="https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html">transitional architecture</a></strong> is a useful practice used when replacing legacy systems. Much like scaffolding might be built, reconfigured and finally removed during construction or renovation of a building, you often need interim architectural steps during legacy displacement. Transitional architectures will be removed or replaced later on, but they're not just throwaway work given the important role they play in reducing risk and allowing a difficult problem to be broken into smaller steps. Thus they help with avoiding the trap of defaulting to a "big bang" legacy replacement approach, because you cannot make smaller interim steps line up with a final architectural vision. Care is needed to make sure the architectural "scaffolding" is eventually removed, lest it just become technical debt later on.</p>"
-CUPID,Assess,Techniques,TRUE,"<p><b>Original Description from Thoughtworks:</b></p><p>How do you approach writing good code? How do you judge if you've written good code? As software developers, we're always looking for catchy rules, principles and patterns that we can use to share a language and values with each other when it comes to writing simple, easy-to-change code.</p>"<p>Daniel Terhorst-North has recently made a new attempt at creating such a checklist for good code. He argues that instead of sticking to a set of rules like <a href=""https://en.wikipedia.org/wiki/SOLID"">SOLID</a>, using a set of properties to aim for is more generally applicable. He came up with what he calls the <strong><a href=""https://dannorth.net/2022/02/10/cupid-for-joyful-coding/"">CUPID</a></strong> properties to describe what we should strive for to achieve ""joyful"" code: Code should be composable, follow the Unix philosophy and be predictable, idiomatic and domain based.</p>"
+Rethinking remote standups,Adopt,Techniques,TRUE,
+Transitional architecture,Assess,Techniques,TRUE,"<b>Original Description from Thoughtworks:</b> https://www.thoughtworks.com/radar/techniques/transitional-architecture"
+CUPID,Assess,Techniques,TRUE,
+Low/No-Code,Adopt,Techniques,TRUE,"https://en.wikipedia.org/wiki/No-code_development_platform"
+Wardley-Mapping,Adopt,Techniques,TRUE,"https://learnwardleymapping.com/"
